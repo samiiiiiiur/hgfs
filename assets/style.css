@@ -1,0 +1,163 @@
+
+@font-face {
+  font-family: "fontim";
+  src: url("kida.ttf");
+}
+body {
+  margin: 0;
+  font-family:fontim;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 3px 3px;
+  margin-left: 35px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  
+  text-decoration: none;
+  font-size: 30px;
+  
+
+}
+
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }   
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  
+  .responsive-text {
+    display: block;
+    position: absolute;
+    left: 38%;
+    transform: translateX(-50%);
+    transform: translateY(-40%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    z-index: 0;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }   
+}
+.footer{
+text-align: center;
+color: white;
+position: relative;
+font-size: 30px;
+position: fixed;     
+bottom: 20px; 
+width: 100%;
+border:0px solid #000000;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-size:25px;
+padding:none;
+text-decoration:none;
+font-family: fontim;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  font-family: fontim;
+  letter-spacing: 1px;
+}
+h1
+{
+
+font-size: 70px;
+color:rgb(0, 0, 0);
+letter-spacing: 5px;
+cursor: pointer;
+font-family: fontim ;
+text-align: center;
+}
+p{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+hr {
+  height: 3px; /* Adjust the desired thickness in pixels */
+  background-color: black;
+  border: none;
+  
+}
+.at-symbol {
+  font-family: "Arial", sans-serif; /* Specify a font that includes the "@" symbol */
+  font-size: 15px;
+}
+.copyright{
+  font-size: 20px;
+}
