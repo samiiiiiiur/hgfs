@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "fontim";
+    src: url("../font/kida.ttf");
+  }
+body
+{ 
+background: #000;
+}
+h2{
+text-align: center;
+font-family: fontim;
+}
+h1
+{
+background-color: #000;
+font-size: 6em;
+color:rgb(255, 0, 0);
+letter-spacing: 5px;
+cursor: pointer;
+text-align: center;
+font-family: fontim;
+}
+h2:hover
+{
+color: #fff;
+text-shadow:0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #fff,
+            0 0 80px #fff,
+            0 0 120px #fff;
+}
+h1:hover
+{
+color: #fff;
+text-shadow:0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px #fff,
+            0 0 80px #fff,
+            0 0 120px #fff;
+}
