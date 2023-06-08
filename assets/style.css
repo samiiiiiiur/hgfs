@@ -149,13 +149,13 @@ p{
   z-index: -1;
 }
 hr {
-  height: 3px; /* Adjust the desired thickness in pixels */
+  height: 3px; 
   background-color: black;
   border: none;
   
 }
 .at-symbol {
-  font-family: "Arial", sans-serif; /* Specify a font that includes the "@" symbol */
+  font-family: "Arial", sans-serif; 
   font-size: 15px;
 }
 .copyright{
