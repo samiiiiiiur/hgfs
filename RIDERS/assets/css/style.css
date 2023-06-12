@@ -399,7 +399,7 @@ body {
 }
 @media only screen and (max-width: 500px) {
     img {
-      content: url('../images/mobile.jpg');
+      content: url('mobile.jpg');
       position: relative;
     }
 }
