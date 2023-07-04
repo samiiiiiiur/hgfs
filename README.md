@@ -1,1 +1,1 @@
-# samz-site.com
+# https://samz-site.com
